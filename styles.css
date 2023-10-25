@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+main {
+  margin: 10px auto;
+  width: 500px;
+  /* padding: 5px; */
+  /* background-color: cyan; */
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  padding: 10px 0px;
+  width: 97%;
+  border: none;
+  /* border-bottom: 1px solid gray; */
+}
+
+#search:focus{
+  outline: none;
+}
+
+#suggestion-area {
+  width: 100%;
+  max-height: 150px;
+  position: relative;
+  display: none;
+  border-radius: 5px;
+}
+
+
+
+
+
